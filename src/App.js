@@ -1,12 +1,17 @@
+import './App.css';
 import React from 'react';
-// import Header component
-// import Main component
-// import footer component
+import Header from './js/Header.js'
+import Main from './js/Main.js'
+import Footer from './js/Footer.js'
+// import HornedBeasts from './js/HornedBeasts.js'
 
 class App extends React.Component{
   render(){
     return(
-      <div id="app">
+      <div>
+        <Header />
+        <Main />
+        <Footer />
       </div>
     )
   }
