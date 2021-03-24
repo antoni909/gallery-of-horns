@@ -1,4 +1,8 @@
-# Number and name of feature: ________________________________
+# Lab02 - 3 Features
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5dc6c58a-e39d-43c6-9d8a-feef1e548bde/deploy-status)](https://app.netlify.com/sites/thirsty-wing-044740/deploys)
+
+## Number and name of feature: ________________________________
 
 Estimate of time needed to complete: _____
 
@@ -8,7 +12,11 @@ Finish time: _____
 
 Actual time needed to complete: _____
 
-# Getting Started with Create React App
+## Resources Used
+
+[emojipedia](https://emojipedia.org/unicorn/)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
