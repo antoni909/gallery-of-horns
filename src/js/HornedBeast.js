@@ -3,16 +3,42 @@ import React from 'react';
 class HornedBeast extends React.Component{
   constructor(props){
     super(props);
-    this.state = { votes: 0, }
+
+    this.state = { 
+      clicks: 0, 
+    }
+    // console.log(this.state.clicks);
   }
+  
+
+  clickFunc = () => {
+
+    console.log(this.state.clicks);
+
+    this.setState({
+      clicks: this.state.clicks + 1
+    });
+
+  }
+
   render(){
+
     return(
       <>
-        <h1> <em>'h1 title:' - {this.props.title}</em> </h1>
-        <h2> 'h2 keyword + horns:' -  {this.props.keyword} <span>{this.props.horns}</span> </h2>
-        <p> 'p description:' - {this.props.description} </p>
-        <img src={this.props.image_url} alt={this.props.description}/>
-        <button> Give Me Luv? </button>
+        <h1>
+          <em>{this.props.title}</em> is a {this.props.keyword} 
+        </h1>
+        <h2>
+          <span>Horns: {this.props.horns}</span> 
+        </h2>
+        <h2>
+          <span>Favorated: {this.state.clicks} <b>❤️</b></span>
+        </h2>
+        <img onClick={this.clickFunc} 
+          src={this.props.image_url} 
+          alt={this.props.description}
+          /> 
+        <p>{this.props.description}</p>
       </>
     );
   }
