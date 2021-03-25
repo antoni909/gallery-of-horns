@@ -2,15 +2,35 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5dc6c58a-e39d-43c6-9d8a-feef1e548bde/deploy-status)](https://app.netlify.com/sites/thirsty-wing-044740/deploys)
 
-## Number and name of feature: ________________________________
+## Number and name of feature: Display Images
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: > 45 min
 
-Start time: _____
+Start time: 7:00 pm
 
-Finish time: _____
+Finish time: 7:57pm
 
-Actual time needed to complete: _____
+Actual time needed to complete: 57 min
+
+## Number and name of feature: Allow users to vote for their favorite beast
+
+Estimate of time needed to complete: 1.5 hrs
+
+Start time: 8:00 pm
+
+Finish time: 9:20 pm
+
+Actual time needed to complete: 1.3 hrs
+
+## Number and name of feature: Bootstrap
+
+Estimate of time needed to complete: 2 hrs
+
+Start time: 9:30 pm
+
+Finish time: 10:29 pm
+
+Actual time needed to complete: 59 min
 
 ## Resources Used
 
