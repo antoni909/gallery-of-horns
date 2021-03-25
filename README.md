@@ -15,6 +15,8 @@ Actual time needed to complete: _____
 ## Resources Used
 
 [emojipedia](https://emojipedia.org/unicorn/)
+[React Bootstrap Components](https://react-bootstrap.github.io/components/cards/)
+[React Bootstrap Layout](https://react-bootstrap.github.io/layout/grid/)
 
 ## Getting Started with Create React App
 

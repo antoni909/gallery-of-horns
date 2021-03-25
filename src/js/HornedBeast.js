@@ -1,5 +1,6 @@
 import React from 'react';
-
+import Container from 'react-bootstrap/Container';
+import Card from 'react-bootstrap/Card';
 
 class HornedBeast extends React.Component{
   constructor(props){
@@ -22,23 +23,30 @@ class HornedBeast extends React.Component{
   }
 
   render(){
-
     return(
-      <>
-        <h1>
-          <em>{this.props.title}</em> is a {this.props.keyword}
-        </h1>
-        <h2>
-          <span>Horns: {this.props.horns}</span>
-        </h2>
-        <h2>
-          <span>Favorated: {this.state.clicks} <b>❤️</b></span>
-        </h2>
-        <img onClick={this.clickFunc}
+      <Card style={{ width: '100%' }}>
+        <Card.Img
+          variant="top"
+          onClick={this.clickFunc}
           src={this.props.image_url}
-          alt={this.props.description}/>
-        <p>{this.props.description}</p>
-      </>
+          alt={this.props.description}
+        />
+        <Card.Body>
+          <Card.Title>
+            {this.props.title}
+            {this.props.keyword}
+          </Card.Title>
+          <Card.Text>
+            Horns:{this.props.horns}
+          </Card.Text>
+          <Card.Text>
+            {this.props.description}
+          </Card.Text>
+          <Card.Text>
+            Favorated: {this.state.clicks} <b>❤️</b>
+          </Card.Text>
+        </Card.Body>
+      </Card>
     );
   }
 }
