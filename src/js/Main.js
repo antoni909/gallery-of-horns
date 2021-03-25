@@ -1,6 +1,6 @@
 import React from 'react';
 import HornedBeast from './HornedBeast.js';
-import data from './data.json'
+import data from './data.json';
 
 class Main extends React.Component{
   render(){
@@ -8,18 +8,18 @@ class Main extends React.Component{
     let beastArr = [];
     data.forEach( (beast,idx) => {beastArr.push(
 
-          <HornedBeast
-            key={idx}
-            title={beast.title} 
-            keyword={beast.keyword} 
-            horns={beast.horns}
-            description={beast.description} 
-            image_url={beast.image_url} 
-          />
+      <HornedBeast
+        key={idx}
+        title={beast.title}
+        keyword={beast.keyword}
+        horns={beast.horns}
+        description={beast.description}
+        image_url={beast.image_url}
+      />
 
-         ); 
+    );
     });
-    return <div> {beastArr} </div>
+    return <div> {beastArr} </div>;
   }
 }
 

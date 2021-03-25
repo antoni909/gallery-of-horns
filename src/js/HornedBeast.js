@@ -4,12 +4,11 @@ class HornedBeast extends React.Component{
   constructor(props){
     super(props);
 
-    this.state = { 
-      clicks: 0, 
-    }
+    this.state = {
+      clicks: 0,
+    };
     // console.log(this.state.clicks);
   }
-  
 
   clickFunc = () => {
 
@@ -26,18 +25,17 @@ class HornedBeast extends React.Component{
     return(
       <>
         <h1>
-          <em>{this.props.title}</em> is a {this.props.keyword} 
+          <em>{this.props.title}</em> is a {this.props.keyword}
         </h1>
         <h2>
-          <span>Horns: {this.props.horns}</span> 
+          <span>Horns: {this.props.horns}</span>
         </h2>
         <h2>
           <span>Favorated: {this.state.clicks} <b>❤️</b></span>
         </h2>
-        <img onClick={this.clickFunc} 
-          src={this.props.image_url} 
-          alt={this.props.description}
-          /> 
+        <img onClick={this.clickFunc}
+          src={this.props.image_url}
+          alt={this.props.description}/>
         <p>{this.props.description}</p>
       </>
     );
