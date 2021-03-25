@@ -2,6 +2,8 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5dc6c58a-e39d-43c6-9d8a-feef1e548bde/deploy-status)](https://app.netlify.com/sites/thirsty-wing-044740/deploys)
 
+## [Gallery of Horns App live on Netlify](https://thirsty-wing-044740.netlify.app)
+
 ## Number and name of feature: Display Images
 
 Estimate of time needed to complete: > 45 min
