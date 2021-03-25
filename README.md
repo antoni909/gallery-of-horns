@@ -37,6 +37,12 @@ Actual time needed to complete: 59 min
 [emojipedia](https://emojipedia.org/unicorn/)
 [React Bootstrap Components](https://react-bootstrap.github.io/components/cards/)
 [React Bootstrap Layout](https://react-bootstrap.github.io/layout/grid/)
+[Troubleshoot Failed Deploy on Netlify](https://answers.netlify.com/t/support-guide-netlify-app-builds-locally-but-fails-on-deploy-case-sensitivity/10754)
+
+- Solutions Found:
+  
+  - check file system cases sensativity
+  - check file abs/rel path
 
 ## Getting Started with Create React App
 
