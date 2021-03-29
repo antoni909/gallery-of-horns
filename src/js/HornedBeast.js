@@ -1,29 +1,26 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 
+
 class HornedBeast extends React.Component{
   constructor(props){
     super(props);
-
     this.state = {
       clicks: 0,
     };
-    // console.log(this.state.clicks);
   }
 
   clickFunc = () => {
-
-    console.log(this.state.clicks);
-
     this.setState({
       clicks: this.state.clicks + 1
     });
-
+    this.props.openModal(this.props.index);
   }
 
   render(){
+    console.log(this.props);
     return(
-      <Card style={{ width: '100%' }}>
+      <Card style={{ width: '80%' }}>
         <Card.Img
           variant="top"
           onClick={this.clickFunc}
