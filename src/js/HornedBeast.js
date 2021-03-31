@@ -18,7 +18,6 @@ class HornedBeast extends React.Component{
   }
 
   render(){
-    console.log(this.props);
     return(
       <Card style={{ width: '80%' }}>
         <Card.Img
