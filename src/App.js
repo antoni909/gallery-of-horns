@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './js/Header.js';
+import FormSelect from './js/Form.js';
 import SelectedBeast from './js/SelectedBeast';
 import Main from './js/Main.js';
 import Footer from './js/Footer.js';
@@ -16,6 +17,11 @@ class App extends React.Component{
       pickedBeast: {},
     };
   }
+
+  filterBeast(){
+    console.log(this.state.data)
+  }
+
   openModal = (index) => {
     this.setState({pickedBeast: this.state.data[index],display: true, });
   }
@@ -31,6 +37,7 @@ class App extends React.Component{
     return(
       <div>
         <Header />
+        <FormSelect />
         <Main
           openModal={this.openModal}
           dataSelectBeast={this.state.data}
