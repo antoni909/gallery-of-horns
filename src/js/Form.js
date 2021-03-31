@@ -3,20 +3,28 @@ import Form from 'react-bootstrap/Form';
 
 
 
-class FormSelect extends React.Component{
+class Select extends React.Component{
   render(){
-    return(
 
-      <Form>
-        <Form.Group controlId="someId">
-          <Form.Label>
-            Select A Beast by Number of Horns!
-          </Form.Label>
-          <Form.Control as="select" custom />
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>100</option>
+    return(
+      <Form >
+        <Form.Group controlId="exampleForm.SelectCustom">
+          <Form.Label>Select a Beast by its Number of Horns</Form.Label>
+          <Form.Control
+            onChange={this.props.onChange}
+            as="select"
+            custom
+          >
+            <option
+              placeholder="select here"
+            >
+            select
+            </option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>100</option>
+          </Form.Control>
         </Form.Group>
       </Form>
 
@@ -24,7 +32,7 @@ class FormSelect extends React.Component{
   }
 }
 
-export default FormSelect;
+export default Select;
 
 // onchange func with Form component
 // pass in values to option tags
