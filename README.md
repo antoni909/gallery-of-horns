@@ -10,9 +10,13 @@ Estimate of time needed to complete: > 3 hrs
 
 Start time: 8:30 pm
 
-Finish time: ? pm
+Finish time: 10:30 pm
 
-Actual time needed to complete: ? hrs
+Start time: 12:00 pm
+
+Finish time: 14:00 pm
+
+Actual time needed to complete: 4 hrs
 
 ## Resources Used
 
