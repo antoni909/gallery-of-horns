@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './js/Header.js';
+import Select from './js/Form.js';
 import SelectedBeast from './js/SelectedBeast';
 import Main from './js/Main.js';
 import Footer from './js/Footer.js';
@@ -16,6 +17,22 @@ class App extends React.Component{
       pickedBeast: {},
     };
   }
+
+  filterOnChange = (event) => {
+
+    const numOfHorns = parseInt(event.target.value);
+
+    let filteredArray = dataSelectBeast;
+    if(numOfHorns){
+      filteredArray = dataSelectBeast.filter( element => element.horns === numOfHorns);
+    }
+    this.renderFilteredBeast(filteredArray);
+  }
+
+  renderFilteredBeast = data => {
+    this.setState({data});
+  }
+
   openModal = (index) => {
     this.setState({pickedBeast: this.state.data[index],display: true, });
   }
@@ -27,10 +44,11 @@ class App extends React.Component{
   }
 
   render(){
-    console.log(this.openModal, this.state.display);
+
     return(
       <div>
         <Header />
+        <Select onChange={this.filterOnChange}/>
         <Main
           openModal={this.openModal}
           dataSelectBeast={this.state.data}

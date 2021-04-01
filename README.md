@@ -1,4 +1,4 @@
-# Lab03 - Modal
+# Lab04 - forms and filter
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5dc6c58a-e39d-43c6-9d8a-feef1e548bde/deploy-status)](https://app.netlify.com/sites/thirsty-wing-044740/deploys)
 
@@ -8,11 +8,15 @@
 
 Estimate of time needed to complete: > 3 hrs
 
-Start time: 2:00 pm
+Start time: 8:30 pm
 
-Finish time: 5:00pm
+Finish time: 10:30 pm
 
-Actual time needed to complete: 5 hrs
+Start time: 12:00 pm
+
+Finish time: 14:00 pm
+
+Actual time needed to complete: 4 hrs
 
 ## Resources Used
 

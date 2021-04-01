@@ -5,7 +5,7 @@ import CardColumns from 'react-bootstrap/CardColumns';
 
 class Main extends React.Component{
   render(){
-    console.log(this.props.openModal);
+
     let beastArr = this.props.dataSelectBeast.map( (beast,index) => {
       return (
         <div key={index}>
@@ -20,10 +20,12 @@ class Main extends React.Component{
           />;
         </div> );
     });
+
     return (
       <CardColumns>
         {beastArr}
       </CardColumns>);
+
   }
 }
 
